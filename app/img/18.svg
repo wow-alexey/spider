@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>cpu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-867.000000, -1315.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(37.000000, 1181.000000)" stroke="#FE5620" stroke-width="3">
+            <g id="Group-Copy-10" transform="translate(813.000000, 0.000000)">
+                <g id="Group-22" transform="translate(19.000000, 136.000000)">
+                    <g id="cpu">
+                        <rect id="Rectangle-path" x="9" y="8" width="43.6363636" height="43.6363636" rx="2"></rect>
+                        <rect id="Rectangle-path" x="22" y="22" width="16.3636364" height="16.3636364"></rect>
+                        <path d="M22,0 L22,8.18181818" id="Shape"></path>
+                        <path d="M39,0 L39,8.18181818" id="Shape"></path>
+                        <path d="M22,52 L22,60.1818182" id="Shape"></path>
+                        <path d="M39,52 L39,60.1818182" id="Shape"></path>
+                        <path d="M52,22 L60.1818182,22" id="Shape"></path>
+                        <path d="M52,35 L60.1818182,35" id="Shape"></path>
+                        <path d="M0,22 L8.18181818,22" id="Shape"></path>
+                        <path d="M0,35 L8.18181818,35" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

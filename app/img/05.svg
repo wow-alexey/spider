@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>wallet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1138.000000, -463.000000)">
+        <g id="Group-2" transform="translate(37.000000, 326.000000)">
+            <g id="Group-Copy-7" transform="translate(1085.000000, 0.000000)">
+                <g id="Group-11" transform="translate(18.000000, 139.000000)">
+                    <g id="wallet">
+                        <path d="M54.789272,58.9736746 L4.21455939,58.9736746 C1.88390805,58.9736746 0,57.0867829 0,54.7618627 L0,21.067367 C0,18.7424468 1.88390805,16.8555551 4.21455939,16.8555551 L54.789272,16.8555551 C57.1199234,16.8555551 59.0038314,18.7424468 59.0038314,21.067367 L59.0038314,54.7618627 C59.0038314,57.0867829 57.1199234,58.9736746 54.789272,58.9736746 Z" id="Stroke-132" stroke="#B8E986" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M50.5747126,37.9146148 C50.5747126,40.239535 48.6908046,42.1264268 46.3601533,42.1264268 C44.0295019,42.1264268 42.1455939,40.239535 42.1455939,37.9146148 C42.1455939,35.5896946 44.0295019,33.7028029 46.3601533,33.7028029 C48.6908046,33.7028029 50.5747126,35.5896946 50.5747126,37.9146148" id="Fill-133" fill="#B8E986"></path>
+                        <polyline id="Stroke-134" stroke="#B8E986" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="46.3601533 16.8555551 46.3601533 0.00830723274 4.21455939 16.8555551"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

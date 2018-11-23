@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="76px" viewBox="0 0 64 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>map-pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-53.000000, -449.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-2" transform="translate(37.000000, 326.000000)" stroke="#359EE6" stroke-width="3">
+            <g id="Group">
+                <g id="Group-7" transform="translate(16.000000, 123.000000)">
+                    <g id="map-pin" transform="translate(2.000000, 1.000000)">
+                        <path d="M59.8009969,30.538479 C59.8009969,53.6779395 29.9882813,73.5117628 29.9882813,73.5117628 C29.9882813,73.5117628 0.175565567,53.6779395 0.175565567,30.538479 C0.175565813,14.1076019 13.5231732,0.78774444 29.9882813,0.78774444 C46.4533893,0.78774444 59.8009967,14.1076019 59.8009969,30.538479 Z" id="Shape"></path>
+                        <ellipse id="Oval" cx="29.9882813" cy="30.2485475" rx="9.93757189" ry="9.91691166"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

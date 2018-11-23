@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="52px" viewBox="0 0 64 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>shield</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-596.000000, -1328.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(37.000000, 1181.000000)" stroke="#FE5620" stroke-width="3">
+            <g id="Group-Copy-11" transform="translate(542.000000, 0.000000)">
+                <g id="Group-21" transform="translate(19.000000, 149.000000)">
+                    <g id="shield">
+                        <g id="inbox">
+                            <polyline id="Shape" points="60 24 42 24 36 33 24 33 18 24 0 24"></polyline>
+                            <path d="M10.35,3.33 L0,24 L0,42 C0,45.3137085 2.6862915,48 6,48 L54,48 C57.3137085,48 60,45.3137085 60,42 L60,24 L49.65,3.33 C48.63681,1.29102696 46.5568319,0.00120817588 44.28,0 L15.72,0 C13.4431681,0.00120817588 11.36319,1.29102696 10.35,3.33 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

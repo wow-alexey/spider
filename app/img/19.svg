@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="64px" viewBox="0 0 52 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>file-text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1137.000000, -1318.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(37.000000, 1181.000000)" stroke="#FE5620" stroke-width="3">
+            <g id="Group-Copy-9" transform="translate(1084.000000, 0.000000)">
+                <g id="Group-23" transform="translate(18.000000, 139.000000)">
+                    <g id="file-text">
+                        <path d="M30,0 L6,0 C2.6862915,0 0,2.6862915 0,6 L0,54 C0,57.3137085 2.6862915,60 6,60 L42,60 C45.3137085,60 48,57.3137085 48,54 L48,18 L30,0 Z" id="Shape"></path>
+                        <polyline id="Shape" points="30 0 30 18 48 18"></polyline>
+                        <path d="M36,33 L12,33" id="Shape"></path>
+                        <path d="M36,45 L12,45" id="Shape"></path>
+                        <polyline id="Shape" points="18 21 15 21 12 21"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

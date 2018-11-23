@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pie-chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1408.000000, -883.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-2-Copy" transform="translate(37.000000, 746.000000)" stroke="#FF66B3" stroke-width="3">
+            <g id="Group-Copy-7" transform="translate(1354.166667, 0.000000)">
+                <g id="Group-17" transform="translate(18.000000, 139.000000)">
+                    <g id="pie-chart">
+                        <path d="M58.63,41.67 C53.3795475,54.0866489 40.4914711,61.4761302 27.1233179,59.7346072 C13.7551647,57.9930842 3.19042828,47.5483107 1.2963612,34.2009165 C-0.597705881,20.8535223 6.64411822,7.88190205 19,2.49" id="Shape"></path>
+                        <path d="M61,30 C61,22.0435053 57.8392948,14.4128879 52.2132034,8.78679656 C46.5871121,3.16070521 38.9564947,6.66133815e-16 31,0 L31,30 L61,30 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

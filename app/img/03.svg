@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>coin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-597.000000, -464.000000)">
+        <g id="Group-2" transform="translate(37.000000, 326.000000)">
+            <g id="Group-Copy-2" transform="translate(542.000000, 0.000000)">
+                <g id="Group-9" transform="translate(18.000000, 138.000000)">
+                    <g id="coin">
+                        <circle id="Oval" fill="#FDCF54" cx="30" cy="30" r="30"></circle>
+                        <path d="M13.108952,39.4324451 L41.607672,39.4324451 L38.7844343,42.8725724 L10.2857143,42.8725724 L13.108952,39.4324451 Z M17.050831,34.6316704 L45.549551,34.6316704 L42.7263133,38.0717977 L14.2275933,38.0717977 L17.050831,34.6316704 Z M20.99271,29.8308956 L49.49143,29.8308956 L46.6681923,33.271023 L18.1694723,33.271023 L20.99271,29.8308956 Z M13.108952,25.0301209 L41.607672,25.0301209 L38.7844343,28.4702482 L10.2857143,28.4702482 L13.108952,25.0301209 Z M17.050831,20.2293462 L45.549551,20.2293462 L42.7263133,23.6694735 L14.2275933,23.6694735 L17.050831,20.2293462 Z M20.99271,15.4285714 L49.49143,15.4285714 L46.6681923,18.8686988 L18.1694723,18.8686988 L20.99271,15.4285714 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

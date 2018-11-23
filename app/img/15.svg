@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>codepen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-55.000000, -1322.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(37.000000, 1181.000000)" stroke="#01BCD5" stroke-width="3">
+            <g id="Group-6">
+                <g id="Group-19" transform="translate(20.000000, 143.000000)">
+                    <g id="codepen">
+                        <polygon id="Shape" points="30 0 60 19.5 60 40.5 30 60 0 40.5 0 19.5"></polygon>
+                        <path d="M30,60.5 L30,41" id="Shape"></path>
+                        <polyline id="Shape" points="60 20 30 41 0 20"></polyline>
+                        <polyline id="Shape" points="0 41 30 20 60 41"></polyline>
+                        <path d="M30,0 L30,19.5" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
