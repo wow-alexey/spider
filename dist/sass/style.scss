@@ -4,18 +4,35 @@
 @import "default-class";
 //@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 //@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 //font-family: 'Quicksand', sans-serif;
 
 
 main {
   width: 100%;
-  padding: 73px 0 142px 0;
+  padding: 140px 0 10px 0;
   //background: rgba(173, 216, 230, 0.41);
-  background: url("../img/main-bg.jpg") center center no-repeat;
-  background-position-y: 0;
-  background-size: cover;
+  // background: url("../img/main-bg.jpg") center center no-repeat;
+  // background: url("../img/background.png") top center no-repeat;
+  // background-position-y: 0;
+  // background-size: contain;
   position: relative;
 }
+
+.background {
+  background: url("../img/background.png") top center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20%;
+  min-height: 250px;
+  max-height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-size: 0;
+}
+
 .lang-block {
   position: absolute;
   right: 20px;
@@ -23,6 +40,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  z-index: 50;
 }
 .lang {
   width: 35px;
@@ -41,6 +59,8 @@ main {
   padding: 0 38px;
   margin: 0 auto;
   background: transparent;
+  position: relative;
+  z-index: 50;
 }
 
 .content {
@@ -50,25 +70,39 @@ main {
 }
 
 .cards-block {
-  margin-top: 98px;
+  margin: 130px auto 0;
   width: 100%;
+  max-width: 1275px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  // justify-content: center;
 }
 
 .card {
-  margin: 0 22px 30px;
-  background-image: linear-gradient(-137deg, #faf9fc 0%, #f2f1f7 100%);
-  box-shadow: 0 2px 4px 0 rgba(193, 193, 193, 0.50);
-  width: 216px;
-  height: 368px;
-  padding: 17px;
+  margin: 0 25px 40px;
+  // background-image: linear-gradient(-137deg, #faf9fc 0%, #f2f1f7 100%);
+  // box-shadow: 0 2px 4px 0 rgba(193, 193, 193, 0.50);
+  // width: 216px;
+  // height: 368px;
+  width: 205px;
+  height: 302px;
+  padding: 10px 0;
   position: relative;
   cursor: pointer;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(-130deg, #ffffff 0%, #f0f7fc 100%);
+  background: -moz-linear-gradient(-130deg, #ffffff 0%, #f0f7fc 100%);
+  background: -o-linear-gradient(-130deg, #ffffff 0%, #f0f7fc 100%);
+  background: -ms-linear-gradient(-130deg, #ffffff 0%, #f0f7fc 100%);
+  background: linear-gradient(220deg, #ffffff 0%, #f0f7fc 100%);
+  box-shadow: 0px 0px 4px 0px #a0b0bc;
+
   &:after {
     position: absolute;
     top: 0;
@@ -90,33 +124,41 @@ main {
   &:before {
     content: '';
     position: absolute;
-    top: 17px;
-    left: 0;
-    width: 8px;
-    height: 60px;
+    top: 10px;
+    left: 8px;
+    width: 3px;
+    height: 52px;
     background: #5ebff9;
     background: -moz-linear-gradient(top, #5ebff9 0%, #238ccc 100%);
     background: -webkit-linear-gradient(top, #5ebff9 0%, #238ccc 100%);
     background: linear-gradient(to bottom, #5ebff9 0%, #238ccc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ebff9', endColorstr='#238ccc', GradientType=0);
   }
+  .number {
+    width: 100%;
+  }
 }
 
 .number {
   //font-family: 'Open Sans', sans-serif;
-  font-family: 'Quicksand-Light', sans-serif;
-  font-size: 72px;
-  line-height: 60px;
+  // font-family: 'Quicksand-Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: left;
+  padding: 0 28px;
+  color: #a0b0bc !important;
 }
 
 .card-logo {
-  margin-top: 32px;
-  height: 70px;
+  min-height: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   img {
     height: 100%;
-    max-width: 60px;
+    max-width: 45px;
   }
 }
 
@@ -174,20 +216,30 @@ main {
 }
 
 .card-name {
-  margin-top: 14px;
-  height: 54px;
-  font-family: "HelveticaBold", sans-serif;
-  font-size: 18px;
-  color: #474747;
+  // margin-top: 14px;
+  // margin-top: 20px;
+  // padding: 0 5px;
+  // height: 54px;
+  // font-family: "HelveticaBold", sans-serif;
+  // font-size: 18px;
+  // color: #474747;
   letter-spacing: 0.02px;
   width: 100%;
-  text-transform: uppercase;
+  // text-transform: uppercase;
+  margin: 19px 0;
+  // margin-top: 20px;
+  padding: 0 9px;
+  // height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #282828;
 }
 
 .card-description {
-  font-family: 'HelveticaRegular', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  color: #474747;
+  color: #282828;
   letter-spacing: 0.01px;
   max-width: 177px;
   line-height: 1.2;
@@ -210,7 +262,9 @@ main {
   //top: 300px;
   transform: translate(-50%, 0);
   display: none;
-  width: 831px;
+  // width: 831px;
+  width: 940px;
+  max-width: 95%;
   height: auto;
   background-image:linear-gradient(-137deg, #faf9fc 0%, #f2f1f7 100%);
   box-shadow:0 2px 4px 0 rgba(193,193,193,0.50);
@@ -220,7 +274,7 @@ main {
 .popup-card {
   width: 100%;
   height: 100%;
-  padding: 45px 51px 45px 57px;
+  padding: 30px 28px 43px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -228,28 +282,36 @@ main {
   &:before {
     content: '';
     position: absolute;
-    top: 43px;
-    left: 0;
-    width: 8px;
-    height: 60px;
+    top: 30px;
+    left: 8px;
+    width: 3px;
+    height: 52px;
     background: #5ebff9;
     background: -moz-linear-gradient(top, #5ebff9 0%, #238ccc 100%);
     background: -webkit-linear-gradient(top, #5ebff9 0%, #238ccc 100%);
     background: linear-gradient(to bottom, #5ebff9 0%, #238ccc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ebff9', endColorstr='#238ccc', GradientType=0);
   }
+  .number {
+    padding: 0;
+  }
   .card-logo {
-    margin-top: 50px;
+    margin-top: -32px;
+    height: 52px;
+    justify-content: center;
   }
   .card-name {
-    margin-top: 15px;
-    font-size:47px;
-    color:#474747;
     letter-spacing:0.05px;
     height: auto;
+
+    margin: 20px 0 0;
+    font-size: 30px;
+    text-align: center;
+    color: #282828;
   }
   .card-img {
-    margin-top: 37px;
+    margin-top: 29px;
+    text-align: center;
     width: 100%;
     height: auto;
     img {
@@ -361,6 +423,18 @@ tr{
   background: url("../img/cancel.svg") no-repeat;
   cursor: pointer;
   background-size: cover;
+}
+.footer-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 90%;
+  border-top: 5px solid #f3f7fa;
+  padding: 29px 30px 20px 50px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  color:  #a0b0bc;
+  font-size: 11px;
+  font-weight: 400;
 }
 
 //div[data-popup='03'],div[data-popup='09'], div[data-popup='11'], div[data-popup='16'], div[data-popup='17']{
