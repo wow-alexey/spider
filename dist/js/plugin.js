@@ -1,3 +1,4 @@
+var shortLang = $('.current-lang');
 $('.show_popup').click(function () {
     // show_popup();
     $('.popup_bg').css({
@@ -35,3 +36,12 @@ function hide_popup() {
         "filter": "blur(0)"
     });
 }
+
+$(document).ready(function() {
+    var currLang = $('.lang-holder .active a').data('lang');    
+    shortLang.html(currLang);
+});
+
+shortLang.on('click', function() {
+    $('.lang-block').toggleClass('opened');
+})

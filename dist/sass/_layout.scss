@@ -30,6 +30,9 @@
   .card-description {
     padding: 0;
   }
+  .lang-block {
+    right: 8%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -103,6 +106,9 @@
     padding-left: 15px;
     max-width: 100%;
   }
+  .card-description {
+    padding: 0 5px;
+  }
 
 }
 
@@ -112,7 +118,6 @@
   }
   .card-description {
     max-width: 100%;
-    padding: 0;
   }
   .cards-block {
     margin-top: 20%;
