@@ -1,4 +1,9 @@
 var shortLang = $('.current-lang');
+
+function disableOverflow() {
+    $('body').toggleClass('disOverflow');
+}
+
 $('.show_popup').click(function () {
     // show_popup();
     $('.popup_bg').css({
@@ -15,13 +20,16 @@ $('.show_popup').click(function () {
     $('.div_popup').css({
         'top': scrollTop
     });
+    disableOverflow();
     console.log($(window).scrollTop());
 
 });
 
 $('.hide_popup').click(function () {
     hide_popup();
+    disableOverflow();
 });
+
 
 //Show popup function
 

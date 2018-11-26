@@ -58,6 +58,9 @@ main {
     border-color: #ffffff transparent transparent transparent;
   }
 }
+.disOverflow {
+  overflow-y: hidden;
+}
 .lang-holder {
   position: absolute;
   top: 47px;
@@ -72,6 +75,7 @@ main {
   visibility: hidden;
   transform: translate(-50%, -15px);
   transition: opacity .3s, visibility .3s, transform .3s;
+
   a {
     padding: 0 10px 0 20px;
     width: 100%;
