@@ -1,7 +1,11 @@
 var shortLang = $('.current-lang');
 
 function disableOverflow() {
-    $('body').toggleClass('disOverflow');
+    if($(window).width() < 769){
+       $('body').toggleClass('disOverflow');
+    } else {
+        $('body').removeClass('disOverflow')
+    }
 }
 
 $('.show_popup').click(function () {
@@ -21,7 +25,7 @@ $('.show_popup').click(function () {
         'top': scrollTop
     });
     disableOverflow();
-    console.log($(window).scrollTop());
+    // console.log($(window).scrollTop());
 
 });
 
@@ -48,6 +52,25 @@ function hide_popup() {
 $(document).ready(function() {
     var currLang = $('.lang-holder .active a').data('lang');    
     shortLang.html(currLang);
+
+    var cardsNumber = $('.card .number');
+    var i = 1;
+    for(var item of cardsNumber) {
+        if(i<10){
+            $(item).html('0'+i);
+        } else {
+            $(item).html(i);
+        }
+        i++;
+    }; 
+
+    var cards = $('.card');
+    for (var card of cards) {
+        var dataCards = $(card).data('card')
+        var popupNumber = $(card).find('.number').html();
+        
+        $('div[data-popup="' + dataCards + '"]').find('.number').html(popupNumber);
+    }
 });
 
 shortLang.on('click', function() {

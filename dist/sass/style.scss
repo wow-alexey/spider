@@ -153,6 +153,9 @@ main {
   flex-wrap: wrap;
   // justify-content: center;
 }
+.show_popup {
+  cursor: pointer;
+}
 
 .card {
   margin: 0 25px 40px;
@@ -164,7 +167,6 @@ main {
   height: 302px;
   padding: 10px 0;
   position: relative;
-  cursor: pointer;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -234,6 +236,7 @@ main {
   img {
     height: 100%;
     max-width: 45px;
+    object-fit: contain;
   }
 }
 
