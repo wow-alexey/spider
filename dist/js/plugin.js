@@ -34,6 +34,13 @@ $('.hide_popup').click(function () {
     disableOverflow();
 });
 
+$(document).keydown(function(e) {
+    if (e.key === "Escape") {
+        hide_popup();
+        disableOverflow();
+    }
+});
+
 
 //Show popup function
 
